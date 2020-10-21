@@ -1,0 +1,20 @@
+---
+posts:
+  - title: TEMPLATE                       # display title of post
+    id: TEMPLATE                          # for the URL, should be unique
+    date: null                            # include if notable
+    short_description: '3-10 word blurb'  # self explanatory
+    body: |
+          The post body can go here.
+          Multiple lines is also fine!
+    external_link: null                   # link to off-site resource; or not, up to you
+  - title: 'fa-stats'
+    id: 'fa-stats'
+    date: null
+    short_description: 'FurAffinity Traffic Volume Analysis'
+    body: |
+          I wanted to know what the best time for an artist to post on FurAffinity was. 
+          Periodically a measurement is taken to get the current visitor count from the FA site. 
+          This is then graphed by time. 
+          <img src="https://raw.githubusercontent.com/XENPHIRA/fa-stats/master/graph.png" width="100%"/>
+    external_link: 'https://github.com/XENPHIRA/fa-stats/blob/master/graph.png'

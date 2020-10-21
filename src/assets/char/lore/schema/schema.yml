@@ -1,0 +1,183 @@
+# version: 1.1
+# author: @xenphira
+---
+type: //rec
+required:
+  enabled: //bool                     # enabled for display
+  name: //str                         # character name
+  shortname: //str                    # character name for sorting/display
+  species: //str                      # character species
+  pronouns:                           # characte pronouns
+    type: //any
+    of:
+      - type: //str
+        value: 'he/him/his'
+      - type: //str
+        value: 'she/her/hers'
+      - type: //str
+        value: 'they/them/theirs'
+  orientation:                        # character orientation
+    type: //any
+    of:
+      - type: //str
+        value: 'straight'
+      - type: //str
+        value: 'gay'
+      - type: //str
+        value: 'bi'
+      - type: //str
+        value: 'pan'
+      - type: //str
+        value: 'asexual'
+      - type: //str
+        value: 'aromantic'
+      - type: //str
+        value: 'queer'
+  meta_visual:                        # visual information for displaying on site
+    type: //rec
+    required:
+      square_icon: //str              # link or path to 1:1 ratio image used as display icon
+      sfw_ref:                        # sfw ref info
+        type: //rec
+        required:
+          path: //str                 # link or path to sfw reference sheet
+        optional:
+          artist_name: //str          # name/id/handle of reference artist
+          artist_platform: //str      # platform code for creating link
+          artist_link: //str          # link to reference artist
+    optional:
+      path_to_sfw_art: //str          # path to directories w/ sfw art
+      path_to_nsfw_art: //str         # path to directories w/ nsfw art
+      nsfw_ref:                       # nsfw ref info
+        type: //rec
+        required:
+          path: //str                 # link or path to nsfw reference sheet
+        optional:
+          artist_name: //str          # name/id/handle of reference artist
+          artist_platform: //str      # platform code for creating link
+          artist_link: //str          # link to reference artist
+      colors:                         # allow for color mapping
+        type: //arr                   # sample below ---
+        contents:                     # 
+            type: //rec               # colors:
+            required:                 #   - label: 'hair'
+              label: //str            #     color: '#ffffff'
+              color: //str            #   - label: 'eyes'
+                                      #     color: '#ff0000'
+optional:
+  sfw_only: //bool                    # denote if NSFW is not allowed
+  flags:                              # denote any lgbt+ flags to include
+    type: //arr
+    contents: //str                   # Supported values:
+                                      # - 'gay'
+                                      # - 'bi'
+                                      # - 'pan'
+                                      # - 'ace'
+                                      # - 'aro'
+                                      # - 'les'
+                                      # - 'nb'
+                                      # - 'trans'
+  description: //str                  # tagline description
+  meta_info:                          # bio info for displaying on site
+    type: //rec
+    optional:
+      adoption_info:                  # for denoting if character was adopted from elsewhere
+        type: //rec
+        required:
+          adopted: //bool             # only true if adopted
+          original_owner:             # original owner/artist info
+            type: //rec
+            required:
+              owner_name: //str       # screen name/handle/name
+              owner_link: //str       # link to online profile of original owner/artist
+      physical:
+        type: //rec
+        optional:
+          age: //int                  # age, in years (whole number)
+          height: //str               # height, string with format f'i"
+          weight: //str               # weight, string with format w lbs
+          anatomy:                    # additional anatomy items
+            type: //rec
+            optional:
+              penis:
+                type: //rec
+                required:
+                  length: //num       # length of penis, in inches
+                  intact: //bool      # false if circumcised, true if uncircumcized
+                  style: //str        # human, canine, etc.
+              balls:
+                type: //rec
+                required:
+                  description: //str  # if including this field, describe what is notable
+              breasts:
+                type: //rec
+                required:
+                  symmetric: //bool   # does the left size match the right size?
+                  style: //str        # standard (human, or 2) or multi (specify count)
+                optional:
+                  size:               # https://www.thirdlove.com/pages/bra-size-chart
+                    type: //rec
+                    required:         # https://www.realsimple.com/beauty-fashion/clothing/shopping-guide/how-to-measure-bra-size?slide=986662d4-c5f6-41fa-a779-a003149a71ea#986662d4-c5f6-41fa-a779-a003149a71ea
+                      cup: //str      # Subtract your calculated band size from your bust measurement
+                                      # {0: 'AA', 1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'DD', 6: ['DDD', 'F'], 7: 'G'}
+                                      # https://www.bratabase.com/browse/by-photo/
+                                      # https://brayola.com/sizes
+                    optional:
+                      band: //int     # Round to the nearest whole number. If the number is even, add four inches. If it’s odd, add five.
+                      bust: //int     # Round to the nearest whole number.
+              vagina:
+                type: //rec
+                required:
+                  description: //str  # if including this field, describe what is notable
+
+      personality:
+        type: //rec
+        optional:
+          likes:                      # list of likes
+            type: //arr
+            contents: //str
+          dislikes:                   # list of dislikes
+            type: //arr
+            contents: //str
+          backstory: //str            # this and below are borrowed fields from D&D 5e Character Sheets
+          traits:
+            type: //arr
+            contents: //str
+          ideals:
+            type: //arr
+            contents: //str
+          bonds:
+            type: //arr
+            contents: //str
+          flaws:
+            type: //arr
+            contents: //str
+          skills:
+            type: //arr
+            contents: //str
+          languages:
+            type: //arr
+            contents: //str
+          job:
+            type: //arr
+            contents: //str
+          nsfw:
+            type: //rec
+            required:
+              kinks:
+                type: //arr
+                contents: //str
+      relationships:
+        type: //arr
+        contents:
+          type: //rec
+          required:
+            with: //str
+            description: //str
+      au:                             # Alternate Universe(s) Details
+        type: //arr
+        contents:
+          type: //rec
+          required:
+            name: //str
+            description: //str

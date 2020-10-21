@@ -1,0 +1,57 @@
+enabled: true
+name: 'Kae'
+shortname: 'kae'
+species: 'Shark'
+pronouns: 'she/her/hers'
+orientation: 'bi'
+meta_visual:
+  square_icon: '/assets/char/thumb/kae/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/kae/ref.png'
+    artist_name: 'jioojyadaisy'
+    artist_link: 'https://www.furaffinity.net/user/jioojyadaisy/'
+    artist_platform: 'FA'
+  path_to_sfw_art: '/assets/char/art/kae/sfw/'
+  colors:
+    - label: 'body_primary'
+      color: '#CECCFE'
+    - label: 'body_secondary'
+      color: '#ECEAFF'
+    - label: 'eyes'
+      color: '#1F4E8B'
+    - label: 'hair_primary'
+      color: '#1ED2AD'
+    - label: 'hair_secondary'
+      color: '#9ED8D2'
+flags:
+  - 'bi'
+  - 'trans'
+description: 'She a shork!'
+meta_info:
+  adoption_info:
+    adopted: true
+    original_owner:
+      owner_name: 'jioojyadaisy'
+      owner_link: 'https://www.furaffinity.net/user/jioojyadaisy/'
+  physical:
+    age: 22
+    anatomy:
+      breasts:
+        symmetric: true
+        style: 'standard'
+        size:
+          cup: 'C'
+      penis:
+        length: 5.2
+        intact: true
+        style: 'human'
+  personality:
+    likes:
+      - 'shiny things'
+      - 'swimming, because of course she does'
+    dislikes:
+      - 'snow'
+      - 'driving in a car - she prefers to walk/bike'
+    traits:
+      - 'working on being more outgoing'
+

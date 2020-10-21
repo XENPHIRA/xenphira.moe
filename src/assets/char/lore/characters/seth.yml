@@ -1,0 +1,58 @@
+enabled: true
+name: 'Seth'
+shortname: 'seth'
+species: 'Bovidae (Sheep)'
+pronouns: 'they/them/theirs'
+orientation: 'bi'
+meta_visual:
+  square_icon: '/assets/char/thumb/seth/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/seth/ref.png'
+    artist_name: 'jioojyadaisy'
+    artist_link: 'https://www.furaffinity.net/user/jioojyadaisy/'
+    artist_platform: 'FA'
+  path_to_sfw_art: '/assets/char/art/seth/sfw/'
+  colors:
+    - label: 'body'
+      color: '#FFCEDF'
+    - label: 'fur'
+      color: '#595959'
+    - label: 'horns_primary'
+      color: '#595959'
+    - label: 'horns_secondary'
+      color: '#60B132'
+    - label: 'soft_tissue'
+      color: '#C8849D'
+    - label: 'eyes'
+      color: '#C1B53B'
+    - label: 'beans_primary'
+      color: '#5A2B3A'
+    - label: 'beans_secondary'
+      color: '#C8849D'
+flags:
+  - 'bi'
+  - 'trans'
+description: 'Shy Sheep'
+meta_info:
+  adoption_info:
+    adopted: true
+    original_owner:
+      owner_name: 'jioojyadaisy'
+      owner_link: 'https://www.furaffinity.net/user/jioojyadaisy/'
+  physical:
+    age: 20
+    anatomy:
+      vagina: 
+        description: 'has one; on a related note, had a hysterectomy'
+      breasts:
+        symmetric: true
+        style: 'mastectomy; scars fairly well hidden'
+  personality:
+    likes:
+      - 'gardening'
+      - 'decaf coffee'
+    dislikes:
+      - 'noisy neighbors'
+      - 'parody songs'
+    traits:
+      - 'shy to a fault, and really enjoys it when people point that out'

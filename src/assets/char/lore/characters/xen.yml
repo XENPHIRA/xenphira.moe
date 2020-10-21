@@ -1,0 +1,73 @@
+enabled: true
+name: 'Xenphira Hollyvine'
+shortname: 'xen'
+species: 'Canine (Husky)'
+pronouns: 'she/her/hers'
+orientation: 'bi'
+meta_visual:
+  square_icon: '/assets/char/thumb/xen/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/xen/ref.png'
+    artist_name: 'me'
+  path_to_sfw_art: '/assets/char/art/xen/sfw/'
+  path_to_nsfw_art: '/assets/char/art/xen/nsfw/'
+  colors:
+    - label: 'fur'
+      color: '#FEDDB5'
+    - label: 'torso'
+      color: '#FEC3C3'
+    - label: 'hair'
+      color: '#FEB6E0'
+    - label: 'eyes'
+      color: '#E33006'
+    - label: 'paw_pads_and_tongue'
+      color: '#279AE0'
+    - label: 'tail_1'
+      color: '#F09FB6'
+    - label: 'tail_2'
+      color: '#FEB6E0'
+    - label: 'tail_3'
+      color: '#F1B49F'
+flags: 
+  - 'bi'
+description: 'A pink husky who likes to party!'
+meta_info:
+  adoption_info:
+    adopted: false
+    original_owner:
+      owner_name: 'XENPHIRA'
+      owner_link: 'https://xenphira.moe'
+  physical:
+    age: 23
+    anatomy:
+      breasts:
+        symmetric: true
+        style: 'standard'
+        size:
+          cup: 'D'
+  personality:
+    likes:
+      - 'dancing'
+      - 'electronic music'
+      - 'rainy weather'
+    dislikes:
+      - 'toxic people'
+      - 'neatness'
+    traits:
+      - 'carefree'
+      - 'smug'
+    nsfw:
+      kinks:
+        - 'micro/macro'
+        - 'maw play'
+        - 'transformation'
+  relationships:
+    - with: 'Cocoa'
+      description: 'work together @ bar'
+    - with: 'Astra'
+      description: 'childhood friend'
+  au:
+    - name: 'cyberpunk'
+      description: |
+        Xen has a stolen brain implaint in her head that she tinkers with,
+        called E.D.A.L.Y.N.

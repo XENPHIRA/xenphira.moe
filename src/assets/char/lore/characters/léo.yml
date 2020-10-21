@@ -1,0 +1,50 @@
+enabled: true
+name: 'Léo'
+shortname: 'léo'
+species: 'Ferret'
+pronouns: 'they/them/theirs'
+orientation: 'pan'
+meta_visual:
+  square_icon: '/assets/char/thumb/leo/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/leo/ref.png'
+    artist_name: 'me'
+  path_to_sfw_art: '/assets/char/art/leo/sfw/'
+  path_to_nsfw_art: '/assets/char/art/leo/sfw/'
+  colors:
+    - label: 'fur'
+      color: '#D1B178'
+    - label: 'nose_ears'
+      color: '#F8BCBE'
+    - label: 'eyes'
+      color: '#76B1D9'
+flags:
+  - 'pan'
+  - 'nb'
+description: 'The OG Ferret Boy'
+meta_info:
+  adoption_info:
+    adopted: false
+    original_owner:
+      owner_name: 'XENPHIRA'
+      owner_link: 'https://xenphira.moe'
+  physical:
+    age: 20
+    anatomy:
+      penis:
+        length: 6.0
+        intact: false
+        style: 'human'
+  personality:
+    likes:
+      - 'soft things'
+      - 'indie rock and post rock'
+      - 'sleeping'
+      - 'photography'
+    dislikes:
+      - 'mean people'
+      - 'loud noises'
+      - 'reality'
+    traits:
+      - 'avid photographer, both digital and film'
+      - 'thinks they are boring'

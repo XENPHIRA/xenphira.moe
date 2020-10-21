@@ -1,0 +1,66 @@
+enabled: true
+name: 'Cocoa'
+shortname: 'cocoa'
+species: 'Primate (Monkey)'
+pronouns: 'he/him/his'
+orientation: 'gay'
+meta_visual:
+  square_icon: '/assets/char/thumb/cocoa/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/cocoa/ref.png'
+    artist_name: 'birbz'
+    artist_link: 'https://furaffinity.net/user/birbz'
+    artist_platform: 'FA'
+  nsfw_ref:
+    path: '/assets/char/ref/cocoa/ref.nsfw.png'
+    artist_name: 'birbz'
+    artist_link: 'https://furaffinity.net/user/birbz'
+    artist_platform: 'FA'
+  path_to_sfw_art: '/assets/char/art/cocoa/sfw/'
+  path_to_nsfw_art: '/assets/char/art/cocoa/nsfw/'
+  colors:
+    - label: 'fur_primary'
+      color: '#9C7064'
+    - label: 'fur_secondary'
+      color: '#E1CAC2'
+    - label: 'hair'
+      color: '#6A3A2E'
+    - label: 'eyes'
+      color: '#0D6344'
+    - label: 'soft_tissue'
+      color: '#D99EA4'
+    - label: 'beanie_hat_optional'
+      color: '#9785AB'
+flags:
+  - 'gay'
+description: 'Gay monkey haha'
+meta_info:
+  adoption_info:
+    adopted: false
+    original_owner:
+      owner_name: 'XENPHIRA'
+      owner_link: 'https://xenphira.moe'
+  physical:
+    age: 21
+    anatomy:
+      penis:
+        length: 7.1
+        intact: true
+        style: 'human'
+  personality:
+    likes:
+      - 'music'
+      - "DJ'ing"
+      - 'dancing'
+      - 'EDM'
+      - 'parkour'
+    dislikes:
+      - 'being alone'
+      - 'mean people'
+      - 'classical music'
+    traits:
+      - 'mostly chill'
+      - 'hyper attached to the purple beanie, but can also often be wearing SOME kind of hat'
+    nsfw:
+      kinks:
+        - 'feet/paws'

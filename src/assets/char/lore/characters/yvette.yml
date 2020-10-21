@@ -1,0 +1,62 @@
+enabled: true
+name: 'Yvette'
+shortname: 'yvette'
+species: 'Feline (Cat)'
+pronouns: 'she/her/hers'
+orientation: 'bi'
+meta_visual:
+  square_icon: '/assets/char/thumb/yette/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/yvette/ref.png'
+    artist_name: 'birbz'
+    artist_link: 'https://furaffinity.net/user/birbz'
+    artist_platform: 'FA'
+  nsfw_ref:
+    path: '/assets/char/ref/yvette/ref.nsfw.png'
+    artist_name: 'birbz'
+    artist_link: 'https://furaffinity.net/user/birbz'
+    artist_platform: 'FA'
+  path_to_sfw_art: '/assets/char/art/yvette/sfw/'
+  path_to_nsfw_art: '/assets/char/art/yvette/nsfw/'
+  colors:
+    - label: 'fur_primary'
+      color: '#FFEBC4'
+    - label: 'fur_secondary'
+      color: '#FFF6E5'
+    - label: 'eye_left'
+      color: '#00689F'
+    - label: 'eye_right'
+      color: '#008700'
+    - label: 'paw_beans_soft_tissue'
+      color: '#DBA6C3'
+flags:
+  - 'bi'
+description: 'Fight Cat!'
+meta_info:
+  adoption_info:
+    adopted: true
+    original_owner:
+      owner_name: 'TammyTammycat'
+      owner_link: 'https://twitter.com/TammyTammycat'
+  physical:
+    age: 24
+    anatomy:
+      breasts:
+        symmetric: true
+        style: 'multi (6)'
+        size:
+          cup: 'A'
+  personality:
+    likes:
+      - 'fighting'
+      - 'rock music'
+      - 'meditation'
+      - 'cooking'
+    dislikes:
+      - 'memes (she does not get them)'
+      - 'disorganization'
+      - 'being interrupted'
+      - 'running out of milk'
+    traits:
+      - 'martial artist'
+      - 'wears blindfold by choice to heighten other senses'

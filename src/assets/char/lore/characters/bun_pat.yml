@@ -1,0 +1,56 @@
+enabled: true
+name: 'Bun Pat'
+shortname: 'bun pat'
+species: 'Lagomorph (Rabbit)'
+pronouns: 'they/them/theirs'
+orientation: 'asexual'
+sfw_only: true
+meta_visual:
+  square_icon: '/assets/char/thumb/bun_pat/thumb.png'
+  sfw_ref:
+    path: '/assets/char/ref/bun_pat/ref.png'
+    artist_name: 'birbz'
+    artist_link: 'https://furaffinity.net/user/birbz'
+    artist_platform: 'FA'
+  path_to_sfw_art: '/assets/char/art/bun_pat/sfw/'
+  colors:
+    - label: 'fur_primary'
+      color: '#C6A26E'
+    - label: 'fur_secondary'
+      color: '#FFF7EC'
+    - label: 'hair'
+      color: '#6F4A14'
+    - label: 'eyes'
+      color: '#2F9075'
+    - label: 'nose_inner_ears'
+      color: '#F3D6E2'
+flags:
+  - 'ace'
+  - 'nb'
+description: 'A soft bun. NO NSFW ALLOWED!'
+meta_info:
+  adoption_info:
+    adopted: false
+    original_owner:
+      owner_name: 'XENPHIRA'
+      owner_link: 'https://xenphira.moe'
+  physical:
+    age: 23
+  personality:
+    likes:
+      - 'cuddling (non-sexual)'
+      - 'space'
+      - 'hot chocolate'
+      - 'sleeping'
+      - 'reading'
+      - 'doodling'
+    dislikes:
+      - 'noise'
+      - 'being woken up'
+      - 'nudity'
+      - 'intolerant people'
+      - 'being scared'
+    traits:
+      - 'shy'
+      - 'cuddly'
+      - 'intelligent'
