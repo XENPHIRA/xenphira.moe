@@ -1,5 +1,5 @@
 <template>
-  <div class="col-3">
+  <div class="col">
     <router-link :to="{ name: 'View NSFW Reference', params: { char: char_name } }">
       <img :src="require('@/assets/char/thumb/'+char_name.toLowerCase()+'/thumb.png')" class="thumb">
       <!-- thumb="@/assets/char/thumb/'+char.char_name+'/thumb.png" -->
