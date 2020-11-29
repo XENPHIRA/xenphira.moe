@@ -68,7 +68,7 @@ export default {
         var bday = new Date("May 04, 1997 00:00:00");
         var diff =(today.getTime() - bday.getTime()) / 1000;
         diff /= (60 * 60 * 24);
-        return Math.abs(Math.round(diff/365.25));
+        return Math.abs(Math.floor(diff/365.25));
       })(),
       electronicmail_addr: (function() {
         var x = "==DMi1zYuWKnbOaoyuaYfyJLgORqwSTqh92L";
